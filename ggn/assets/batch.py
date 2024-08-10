@@ -52,7 +52,7 @@ def load_ids_data():
 
 ids_data = load_ids_data()
 
-@gagan.on(events.NewMessage(incoming=True, pattern='/batch'))
+@gagan.on(events.NewMessage(incoming=True, pattern='/twice'))
 async def _batch(event):
     user_id = event.sender_id
     userbot = None
@@ -85,8 +85,8 @@ async def _batch(event):
             _range = await conv.get_reply()
             try:
                 value = int(_range.text)
-                if value > 1000:
-                    return await conv.send_message("You can only get up to 1000 files in a single batch.\n\nPurchase premium to go beyong limit send /plan to know more...")
+                if value > 2:
+                    return await conv.send_message("Sir you don't have any premium plan")
             except ValueError:
                 return await conv.send_message("Range must be an integer!")
 
@@ -103,7 +103,7 @@ async def _batch(event):
             
 
             cd = await conv.send_message("**Batch process ongoing...**\n\nProcess completed: ", 
-                                    buttons=[[Button.url("Join Channel", url="http://t.me/devggn")]])
+                                    buttons=[[Button.url("Join Channel", url="https://t.me/Save_restricted_content_base")]])
             co = await run_batch(userbot, Bot, user_id, cd, _link) 
             try: 
                 if co == -2:
