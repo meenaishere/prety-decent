@@ -3,7 +3,7 @@
 </h1>
 
     
-Contact: [Telegram](https://t.me/devggn)
+Contact: [Telegram](https://t.me/Chat_support_cc_bot)
 
 ---
 
@@ -24,12 +24,12 @@ Contact: [Telegram](https://t.me/devggn)
 - Able to download Youtube videos + 30 more sites supported via `/dl` command 
 
 ### Try Live Bot
-Bot link - [CLICK HERE](https://t.me/advance_content_saver_bot)
+Bot link - [CLICK HERE](https://t.me/Chat_support_cc_bot))
 ---
-A stable telegram bot to get restricted messages from group/channel/bot with custom thumbnail support , made by [TEAM SPY](https://t.me/devggn) This bot can run in channels directly.
+A stable telegram bot to get restricted messages from group/channel/bot with custom thumbnail support , made by [𝚂𝚊𝚟𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝𝚎𝚍 𝚋𝚘𝚝](https://t.me/Save_restricted_content_base)) This bot can run in channels directly.
 
 
-## How to get vars - [TEAM SPY](https://t.me/devggn)
+## How to get vars - [𝚂𝚊𝚟𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝𝚎𝚍 𝚋𝚘𝚝](https://t.me/Save_restricted_content_base)
 
 - `BOT TOKEN`: @Botfather on telegram
 
@@ -43,7 +43,7 @@ A stable telegram bot to get restricted messages from group/channel/bot with cus
 
 - `MONGO_DB`: Create new mongo db it is not recommended to use the default one if you dont know how to create you can use otherwise dont use bcz it may lead to account hack/deletion through session.
 
-## Deploying Guide - [TEAM SPY](https://t.me/devggn)
+## Deploying Guide - [𝚂𝚊𝚟𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝𝚎𝚍 𝚋𝚘𝚝](https://t.me/Save_restricted_content_base)
 
 ### Deploy on `VPS`
 
@@ -82,7 +82,7 @@ python3 -m ggn
 
 » Method - 1:
 - Star the repo, and fork it in desktop mode
-- Click on  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+- Click on  [![Deploy]
 - Fill your values and done ✅
  
 » Method - 2:
@@ -119,7 +119,7 @@ python3 -m ggn
 - Done ✅
 
 ## Terms of USE / Modification 
-Visit [Terms](https://github.com/devgaganin/Save-Restricted-Content-Bot-Repo/blob/main/TERMS_OF_USE.md) and accept the guidelines.
+Visit [Terms]and accept the guidelines.
 
 # Updates
 
