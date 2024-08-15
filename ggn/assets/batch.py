@@ -52,7 +52,7 @@ def load_ids_data():
 
 ids_data = load_ids_data()
 
-@gagan.on(events.NewMessage(incoming=True, pattern='/twice'))
+@gagan.on(events.NewMessage(incoming=True, pattern='/batch'))
 async def _batch(event):
     user_id = event.sender_id
     userbot = None
@@ -85,7 +85,7 @@ async def _batch(event):
             _range = await conv.get_reply()
             try:
                 value = int(_range.text)
-                if value > 2:
+                if value > 100:
                     return await conv.send_message("Sir you don't have any premium plan")
             except ValueError:
                 return await conv.send_message("Range must be an integer!")
